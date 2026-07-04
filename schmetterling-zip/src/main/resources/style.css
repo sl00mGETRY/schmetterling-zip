@@ -1,0 +1,45 @@
+.root {
+    -fx-background-color: #0a0c1e;
+}
+
+.tab-pane {
+    -fx-background-color: #0a0c1e;
+}
+
+.tab-header-area .tab-header-background {
+    -fx-background-color: #2d1455;
+}
+
+.tab {
+    -fx-background-color: #2d1455;
+    -fx-text-fill: #ffffff;
+}
+
+.tab:selected {
+    -fx-background-color: #4b1e87;
+    -fx-text-fill: #ff69b4;
+}
+
+.button {
+    -fx-background-color: #2d1455;
+    -fx-text-fill: #ff69b4;
+    -fx-border-color: #8a2be2;
+    -fx-border-width: 1px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+}
+
+.button:hover {
+    -fx-background-color: #4b1e87;
+}
+
+.label {
+    -fx-text-fill: #ff69b4;
+}
+
+.neon-title {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ff69b4;
+    -fx-effect: drop-shadow(three-pass-box, #ff0080, 10, 0.5, 0, 0);
+}
